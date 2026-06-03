@@ -26,27 +26,17 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "Pricing",
-          id: "/pricing",
-        },
+          name: "Pricing",          id: "/pricing"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Crestline Digital"
       button={{
-        text: "Get a Quote",
-        href: "/contact",
-      }}
+        text: "Get a Quote",        href: "/contact"}}
     />
   </div>
 
@@ -57,49 +47,24 @@ export default function LandingPage() {
       description="Ready to elevate your online presence? Fill out the form below to start a conversation about your project goals. We're excited to hear from you!"
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "businessName",
-          type: "text",
-          placeholder: "Business Name",
-          required: true,
+          name: "businessName",          type: "text",          placeholder: "Business Name",          required: true,
         },
         {
-          name: "phone",
-          type: "tel",
-          placeholder: "Phone Number",
-          required: false,
+          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: false,
         },
         {
-          name: "email",
-          type: "email",
-          placeholder: "Email Address",
-          required: true,
+          name: "email",          type: "email",          placeholder: "Email Address",          required: true,
         },
       ]}
       multiSelect={{
-        name: "tradeIndustry",
-        label: "Trade / Industry",
-        options: [
-          "Electrician",
-          "Plumber",
-          "HVAC Technician",
-          "Landscaper",
-          "Roofer",
-          "General Contractor",
-          "Painter",
-          "Flooring Installer",
-          "Other",
-        ],
+        name: "tradeIndustry",        label: "Trade / Industry",        options: [
+          "Electrician",          "Plumber",          "HVAC Technician",          "Landscaper",          "Roofer",          "General Contractor",          "Painter",          "Flooring Installer",          "Other"],
       }}
       textarea={{
-        name: "message",
-        placeholder: "Tell us about your project and goals...",
-        rows: 5,
+        name: "message",        placeholder: "Tell us about your project and goals...",        rows: 5,
         required: true,
       }}
       imageSrc="http://img.b2bpic.net/free-photo/business-man-working-hotel-room_1150-6380.jpg"
@@ -114,7 +79,7 @@ export default function LandingPage() {
       <MediaAbout
       useInvertedBackground={false}
       title="Connect with Crestline Digital"
-      description="Reach out to us using the form or direct contact details below. We believe in transparency and building relationships. There's no pressure, just a free chat about how we can help achieve your business goals. We typically respond within 24 hours.\n\nEmail: info@crestlinedigital.com\nPhone: (123) 456-7890\nService Area: Serving businesses across North America"
+      description="Reach out to us using the form or direct contact details below. We believe in transparency and building relationships. There's no pressure, just a free chat about how we can help achieve your business goals. We typically respond within 24 hours.\n\nEmail: swackswipefile@gmail.com\nPhone: 705-817-3004\nService Area: Serving businesses across North America"
       imageSrc="http://img.b2bpic.net/free-photo/top-view-sad-face-with-copy-space_23-2148756226.jpg"
       imageAlt="Elegant illustration of two hands shaking, symbolizing trust"
     />
@@ -126,13 +91,9 @@ export default function LandingPage() {
       logoAlt="Crestline Digital Logo"
       logoText="Crestline Digital"
       leftLink={{
-        text: "© 2024 Crestline Digital. All rights reserved.",
-        href: "#",
-      }}
+        text: "© 2024 Crestline Digital. All rights reserved.",        href: "#"}}
       rightLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
+        text: "Privacy Policy",        href: "#"}}
     />
   </div>
       </ReactLenis>
