@@ -34,7 +34,9 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "/contact"},
       ]}
-      brandName="Crestline Digital"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EdYpn6q97xOmp8rRGBMw3A94lX/uploaded-1780538335080-9fjklop5.png"
+      logoAlt="Crestline Digital Logo"
+      logoClassName="h-8 w-auto"
       button={{
         text: "Get a Quote",        href: "/contact"}}
     />
@@ -87,9 +89,10 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=h5orts"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EdYpn6q97xOmp8rRGBMw3A94lX/uploaded-1780538335080-9fjklop5.png"
       logoAlt="Crestline Digital Logo"
       logoText="Crestline Digital"
+      logoImageClassName="h-6 w-auto"
       leftLink={{
         text: "© 2024 Crestline Digital. All rights reserved.",        href: "#"}}
       rightLink={{
