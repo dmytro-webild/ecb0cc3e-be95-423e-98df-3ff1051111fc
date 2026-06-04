@@ -38,7 +38,9 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "/contact"},
       ]}
-      brandName="Crestline Digital"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EdYpn6q97xOmp8rRGBMw3A94lX/uploaded-1780538335080-9fjklop5.png"
+      logoAlt="Crestline Digital Logo"
+      logoClassName="h-8 w-auto"
       button={{
         text: "Get a Quote",        href: "/contact"}}
     />
@@ -213,19 +215,19 @@ export default function LandingPage() {
           id: "starter",          title: "Starter",          price: "$999",          period: "One-time",          features: [
             "5-Page Website",            "Mobile Responsive",            "Contact Form",            "Basic SEO Setup",            "30-Day Support"],
           button: {
-            text: "Choose Starter",            href: "/pricing#starter"},
+            text: "Choose Starter",          href: "/pricing#starter"},
           imageSrc: "http://img.b2bpic.net/free-photo/3d-rendering-abstract-metallic-cube_23-2150979677.jpg",          imageAlt: "Icon representing starter website plan"},
         {
           id: "pro",          title: "Pro",          price: "$1,999",          period: "One-time",          features: [
             "10-Page Website",            "Advanced SEO",            "Blog Setup",            "Google Analytics",            "90-Day Support",            "2 Revision Rounds"],
           button: {
-            text: "Choose Pro",            href: "/pricing#pro"},
+            text: "Choose Pro",          href: "/pricing#pro"},
           imageSrc: "http://img.b2bpic.net/free-vector/golden-badges_1010-68.jpg",          imageAlt: "Icon representing pro website plan"},
         {
           id: "elite",          title: "Elite",          price: "$3,499",          period: "One-time",          features: [
             "Unlimited Pages",            "Full SEO Strategy",            "Booking Integration",            "Priority Support",            "Monthly Check-ins",            "Custom Branding"],
           button: {
-            text: "Choose Elite",            href: "/pricing#elite"},
+            text: "Choose Elite",          href: "/pricing#elite"},
           imageSrc: "http://img.b2bpic.net/free-photo/professional-person-engaging-with-ai-chatbot-computer-screen_482257-126263.jpg",          imageAlt: "Icon representing elite website plan"},
       ]}
       title="Flexible Pricing, Powerful Results"
@@ -239,9 +241,10 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=h5orts"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EdYpn6q97xOmp8rRGBMw3A94lX/uploaded-1780538335080-9fjklop5.png"
       logoAlt="Crestline Digital Logo"
       logoText="Crestline Digital"
+      logoImageClassName="h-6 w-auto"
       leftLink={{
         text: "© 2024 Crestline Digital. All rights reserved.",        href: "#"}}
       rightLink={{
